@@ -73,10 +73,11 @@ def print_square():
     ''')
 
 
-user_choice = int(input('打印三角形请输入1，打印矩形请输入2：'))
-if user_choice == 1:
-    print_triangle()
-elif user_choice == 2:
-    print_square()
-else:
-    print('您输入的有误！')
+# user_choice = int(input('打印三角形请输入1，打印矩形请输入2：'))
+# if user_choice == 1:
+#     print_triangle()
+# elif user_choice == 2:
+#     print_square()
+# else:
+#     print('您输入的有误！')
+
