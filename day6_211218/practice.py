@@ -75,14 +75,14 @@
 
 # print(find_all_pos([3, 6, 1, 4, 1, 5, 6, 1, 3, 6, 2], 1))
 
-def fibonacci(n: int):
-    result = [1, 1]
-    if n == 1 or n == 2:
-        print(n * [1])
-    else:
-        for i in range(2, n):
-            result.append(result[i - 2] + result[i - 1])
-        print(result)
-fibonacci(1)
-fibonacci(2)
-fibonacci(5)
+# def fibonacci(n: int):
+#     result = [1, 1]
+#     if n == 1 or n == 2:
+#         print(n * [1])
+#     else:
+#         for i in range(2, n):
+#             result.append(result[i - 2] + result[i - 1])
+#         print(result)
+# fibonacci(1)
+# fibonacci(2)
+# fibonacci(5)
