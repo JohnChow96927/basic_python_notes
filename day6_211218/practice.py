@@ -44,3 +44,45 @@
 #
 # a = 10,
 # print(type(a))  # tuple
+
+# a = 10
+# b = 20
+# temp = a
+# a = b
+# b = temp
+
+# a_str = 'abcdefg'
+# b_list = [1, 2, 3, 4, 5, 6]
+#
+#
+# def func1():
+#     # global a_str
+#     a_str = 'niubi'
+#     # global b_list
+#     b_list = [3, 2, 1]
+#
+#
+# func1()
+# print(a_str)
+# print(b_list)
+
+# def find_all_pos(a: list, b):
+#     result = []
+#     for i in range(len(a)):
+#         if a[i] == b:
+#             result.append(i)
+#     return tuple(result)
+
+# print(find_all_pos([3, 6, 1, 4, 1, 5, 6, 1, 3, 6, 2], 1))
+
+def fibonacci(n: int):
+    result = [1, 1]
+    if n == 1 or n == 2:
+        print(n * [1])
+    else:
+        for i in range(2, n):
+            result.append(result[i - 2] + result[i - 1])
+        print(result)
+fibonacci(1)
+fibonacci(2)
+fibonacci(5)
